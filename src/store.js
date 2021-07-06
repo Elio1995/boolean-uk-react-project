@@ -4,6 +4,8 @@ const useStore = create((set, get) => ({
   genres: [],
   authors: [],
   books: [],
+  selectedAuthor: null,
+  selectedBook: null,
   fetchGenres() {
     fetch(`http://localhost:3000/genres`)
       .then((resp) => resp.json())
@@ -19,5 +21,29 @@ const useStore = create((set, get) => ({
       .then((resp) => resp.json())
       .then((books) => set({ books }));
   },
+  inSelectedAuthor(author) {
+    set({ selectedAuthor: author });
+  },
+
+  inSelectedBook(book) {
+    set({ selectedBook: book });
+  },
+  genre: "All",
+  selectedGenre: (event) => {
+    console.log(event.target.value);
+    set({ genre: event.target.value });
+  },
+  filterBooks: [],
+  getFilteredBooks: () => {
+    if (get().genre === "All") {
+      set({ filterBooks: get().books });
+    } else {
+      let filterBooksArray = get().books.filter(
+        (target) => target.genre.name === get().genre
+      );
+      set({ filterBooks: filterBooksArray });
+    }
+  },
 }));
+
 export default useStore;

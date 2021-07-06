@@ -5,20 +5,20 @@ function LeftMenu() {
   return (
     <section className="left-menu">
       <div>
-        <ul class="genres-filter-list">
-          <label for="author">Filter by Genres</label>
+        <ul className="genres-filter-list">
+          <label htmlFor="author">Filter by Genres</label>
           <GenresList />
         </ul>
       </div>
 
-      <div class="add-book-form">
-        <form class="new-book-form" autocomplete="off">
+      <div className="add-book-form">
+        <form className="new-book-form" autoComplete="off">
           <h2>Add a Book</h2>
-          <label for="name">Title</label>
+          <label htmlFor="name">Title</label>
           <input type="text" name="name"></input>
 
-          <ul class="genres-form">
-            <label for="genres">Genres</label>
+          <ul className="genres-form">
+            <label htmlFor="genres">Genres</label>
             <li>
               <input name="genres" type="radio"></input>Fantastic
             </li>
@@ -33,10 +33,10 @@ function LeftMenu() {
             </li>
           </ul>
 
-          <label for="author">Author</label>
+          <label htmlFor="author">Author</label>
           <input type="text" name="author"></input>
 
-          <label for="description">Description</label>
+          <label htmlFor="description">Description</label>
           <textarea name="description" rows="5" cols="20"></textarea>
 
           <button>Submit</button>

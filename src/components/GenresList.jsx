@@ -1,21 +1,42 @@
-import React from "react";
+import React, { useEffect } from "react";
 import useStore from "../store";
 
 function GenresList() {
+  const selectedGenre = useStore((store) => store.selectedGenre);
   const genres = useStore((store) => store.genres);
-  console.log("Genres", genres);
+  const genre = useStore((store) => store.genre);
+  const getFilteredBooks = useStore((store) => store.getFilteredBooks);
+  console.log("genre", genre);
+
+  useEffect(() => {
+    getFilteredBooks();
+  }, [genre]);
+
+  genre.length && getFilteredBooks;
+
   return (
-    <div>
+    <form autoComplete="off" className="genre-form">
       <li>
-        <input name="author" type="radio"></input> All{" "}
+        <input
+          onChange={(Event) => selectedGenre(Event)}
+          value="All"
+          name="genre"
+          type="radio"
+        ></input>{" "}
+        All{" "}
       </li>
       {genres.map((genre) => (
-        <li>
-          <input name="author" type="radio"></input>
+        <li key={genre.id}>
+          <input
+            onChange={(Event) => selectedGenre(Event)}
+            value={genre.name}
+            name="genre"
+            type="radio"
+          ></input>
           {genre.name}
         </li>
       ))}
-    </div>
+    </form>
   );
 }
 export default GenresList;

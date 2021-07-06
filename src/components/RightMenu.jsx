@@ -5,7 +5,7 @@ function RightMenu() {
   return (
     <section className="right-menu">
       <h2>Biography of the Authors</h2>
-      <ul class="biography-list">
+      <ul className="biography-list">
         <AuthorsList />
       </ul>
     </section>

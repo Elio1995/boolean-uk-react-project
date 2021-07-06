@@ -152,3 +152,13 @@ li {
 .biography-list li {
   margin: 10px;
 }
+
+/* AUTHORPAGE */
+
+.author-name-image {
+  margin: 20px;
+}
+
+.author-biography {
+  margin: 20px;
+}
