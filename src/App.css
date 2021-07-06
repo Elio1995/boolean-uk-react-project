@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html {
+  --blackest: #965314;
+  --black: #141d26;
+  --navy: #243447;
+  --pink: #c51f5d;
+  --dark-pink: #8d1642;
+  --white: white;
+  /* var(--black, value) */
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+li {
+  list-style: none;
+}
+
+.all-file {
+  display: grid;
+  grid-template:
+    "header header header" 60px
+    "left main right" 1fr /
+    200px 1fr 230px;
+}
+
+/* HEADER */
+.header-top {
+  grid-area: header;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 30px 1fr 200px;
+
+  background-color: var(--blackest);
+  padding: 20px;
+  color: white;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+}
+
+.search-header {
+  border-radius: 15px;
+  border-color: white;
+}
+
+/* LEFT MENU */
+
+.left-menu {
+  grid-area: left;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  padding: 15px;
+  gap: 25px;
+}
+
+.genres-filter-list {
+  list-style: none;
+}
+
+.genres-filter-list li {
+  margin: 10px;
+}
+
+.left-menu input {
+  margin-left: 10px;
+}
+
+/* MAIN-MENU  */
+
+.main-section {
+  height: 100%;
+  width: 100%;
+  grid-area: main;
+  padding: 20px;
+}
+
+.main-section .list-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, auto));
+  list-style: none;
+  gap: 10px;
+}
+
+.card-image {
+  max-width: 100%;
+  object-fit: cover;
+  margin-top: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.card {
+  padding: 8px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: white;
+}
+
+.card li:hover {
+  border-color: var(--pink);
+}
+
+.card button {
+  height: 33px;
+  width: 33px;
+  border-radius: 50%;
+  background-color: var(--dark-pink);
+  color: var(--white);
+  padding: 3px 7px;
+  margin-left: 10px;
+}
+
+.card button:hover {
+  background-color: var(--pink);
+}
+
+.card button:active {
+  background-color: var(--dark-pink);
+}
+
+.favourite {
+  width: 1rem;
+  height: 1rem;
+}
+
+/* RIGHT MENU */
+
+.right-menu {
+  grid-area: right;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 25px;
+  padding: 20px;
+}
+
+.biography-list {
+  margin-left: 10px;
+}
+
+.biography-list li {
+  margin: 10px;
+}
