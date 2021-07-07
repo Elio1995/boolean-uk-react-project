@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import React from "react";
 
 function Header() {
@@ -9,6 +11,10 @@ function Header() {
         className="logo"
       ></img>
       <h2>BOOK CABIN</h2>
+      <Link to="/favouritesRead-page">
+        {" "}
+        <button>Favourite and Read</button>
+      </Link>
       <input
         type="search"
         className="search-header"

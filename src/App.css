@@ -36,7 +36,7 @@ li {
   grid-area: header;
   display: grid;
   gap: 10px;
-  grid-template-columns: 30px 1fr 200px;
+  grid-template-columns: 30px 1fr 200px 200px;
 
   background-color: var(--blackest);
   padding: 20px;
@@ -112,7 +112,7 @@ li {
   border-color: var(--pink);
 }
 
-.card button {
+/* .card button {
   height: 33px;
   width: 33px;
   border-radius: 50%;
@@ -120,7 +120,7 @@ li {
   color: var(--white);
   padding: 3px 7px;
   margin-left: 10px;
-}
+} */
 
 .card button:hover {
   background-color: var(--pink);

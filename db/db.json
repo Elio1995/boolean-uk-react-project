@@ -1,222 +1,208 @@
 {
-    "books": 
-    [    
-      {
-        "id": "5b21ca3eeb7f6fbccd471815",
-        "isbn": "9781593275846",
-        "title": "Eloquent JavaScript, Second Edition",
-        "subtitle": "A Modern Introduction to Programming",
-        "genre": 
-        {
-          "id": "5b21ca3eeb7f6fbccd471821",
-          "name": "Management"
-        },
-        "author": "Marijn Haverbeke",
-        "published": "2014-12-14T00:00:00.000Z",
-        "publisher": "No Starch Press",
-        "pages": 472,
-        "description": "JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.",
-        "website": "http://eloquentjavascript.net/",
-        "image": "https://images-na.ssl-images-amazon.com/images/I/51IKycqTPUL._SX376_BO1,204,203,200_.jpg"
-      },    
-      {
-        "id": "5b21ca3eeb7f6fbccd471816",
-        "isbn": "9781449331818",
-        "title": "Learning JavaScript Design Patterns",
-        "subtitle": "A JavaScript and jQuery Developer's Guide",
-        "genre": 
-        {
-          "id": "5b21ca3eeb7f6fbccd471820",
-          "name": "Programming"
-        },
-        "author": "Addy Osmani",
-        "published": "2012-07-01T00:00:00.000Z",
-        "publisher": "O'Reilly Media",
-        "pages": 254,
-        "description": "With Learning JavaScript Design Patterns, you'll learn how to write beautiful, structured, and maintainable JavaScript by applying classical and modern design patterns to the language. If you want to keep your code efficient, more manageable, and up-to-date with the latest best practices, this book is for you.",
-        "website": "http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/",
-        "image": "https://cdn.waterstones.com/bookjackets/large/9781/1185/9781118531648.jpg"
-      },    
-      {
-        "id": "5b21ca3eeb7f6fbccd471817",
-        "isbn": "9781449365035",
-        "title": "Speaking JavaScript",
-        "subtitle": "An In-Depth Guide for Programmers",
-        "genre": 
-        {
-          "id": "5b21ca3eeb7f6fbccd471820",
-          "name": "Programming"
-        },
-        "author": "Axel Rauschmayer",
-        "published": "2014-02-01T00:00:00.000Z",
-        "publisher": "O'Reilly Media",
-        "pages": 460,
-        "description": "Like it or not, JavaScript is everywhere these days-from browser to server to mobile-and now you, too, need to learn the language or dive deeper than you have. This concise book guides you into and through JavaScript, written by a veteran programmer who once found himself in the same position.",
-        "website": "http://speakingjs.com/",
-        "image": "https://rotn1.files.wordpress.com/2017/12/gmlindepthguide.png?w=640"
-      },    
-      {
-        "id": "5b21ca3eeb7f6fbccd471818",
-        "isbn": "9781491950296",
-        "title": "Programming JavaScript Applications",
-        "subtitle": "Robust Web Architecture with Node, HTML5, and Modern JS Libraries",
-        "genre": 
-        {
-          "id": "5b21ca3eeb7f6fbccd471820",
-          "name": "Programming"
-        },
-        "author": "Eric Elliott",
-        "published": "2014-07-01T00:00:00.000Z",
-        "publisher": "O'Reilly Media",
-        "pages": 254,
-        "description": "Take advantage of JavaScript's power to build robust web-scale or enterprise applications that are easy to extend and maintain. By applying the design patterns outlined in this practical book, experienced JavaScript developers will learn how to write flexible and resilient code that's easier-yes, easier-to work with as your code base grows.",
-        "website": "http://chimera.labs.oreilly.com/books/1234000000262/index.html",
-        "image": "https://images-na.ssl-images-amazon.com/images/I/512Hli3f6FL.jpg"
-      },    
-      {
-        "id": "5b21ca3eeb7f6fbccd471819",
-        "isbn": "9781593277574",
-        "title": "Understanding ECMAScript 6",
-        "subtitle": "The Definitive Guide for JavaScript Developers",
-        "genre": 
-        {
-          "id": "5b21ca3eeb7f6fbccd471814",
-          "name": "Fantastic"
-        },
-        "author": "Nicholas C. Zakas",
-        "published": "2016-09-03T00:00:00.000Z",
-        "publisher": "No Starch Press",
-        "pages": 352,
-        "description": "ECMAScript 6 represents the biggest update to the core of JavaScript in the history of the language. In Understanding ECMAScript 6, expert developer Nicholas C. Zakas provides a complete guide to the object types, syntax, and other exciting changes that ECMAScript 6 brings to JavaScript.",
-        "website": "https://leanpub.com/understandinges6/read",
-        "image": "https://images-na.ssl-images-amazon.com/images/I/91hUer84PpL.jpg"
-      },    
-      {
-        "id": "5b21ca3eeb7f6fbccd471820",
-        "isbn": "9781491904244",
-        "title": "You Don't Know JS",
-        "subtitle": "ES6 & Beyond",
-        "genre": 
-        {
-          "id": "5b21ca3eeb7f6fbccd471814",
-          "name": "Fantastic"
-        },
-        "author": "Kyle Simpson",
-        "published": "2015-12-27T00:00:00.000Z",
-        "publisher": "O'Reilly Media",
-        "pages": 278,
-        "description": "No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. As part of the \"You Don’t Know JS\" series, this compact guide focuses on new features available in ECMAScript 6 (ES6), the latest version of the standard upon which JavaScript is built.",
-        "website": "https://github.com/getify/You-Dont-Know-JS/tree/master/es6%20&%20beyond",
-        "image": "https://images-na.ssl-images-amazon.com/images/I/91-PASfiUVL.jpg"
-      },    
-      {
-        "id": "5b21ca3eeb7f6fbccd471821",
-        "isbn": "9781449325862",
-        "title": "Git Pocket Guide",
-        "subtitle": "A Working Introduction",
-        "genre": 
-        {
-          "id": "5b21ca3eeb7f6fbccd471821",
-          "name": "Management"
-        },
-        "author": "Richard E. Silverman",
-        "published": "2013-08-02T00:00:00.000Z",
-        "publisher": "O'Reilly Media",
-        "pages": 234,
-        "description": "This pocket guide is the perfect on-the-job companion to Git, the distributed version control system. It provides a compact, readable introduction to Git for new users, as well as a reference to common commands and procedures for those of you with Git experience.",
-        "website": "http://chimera.labs.oreilly.com/books/1230000000561/index.html",
-        "image": "https://images-na.ssl-images-amazon.com/images/I/71f5JPIzrbL.jpg"
-      },    
-      {
-        "id": "5b21ca3eeb7f6fbccd471822",
-        "isbn": "9781449337711",
-        "title": "Designing Evolvable Web APIs with ASP.NET",
-        "subtitle": "Harnessing the Power of the Web",
-        "genre": 
-        {
-          "id": "5b21ca3eeb7f6fbccd471818",
-          "name": "Finance"
-        },
-        "author": "Glenn Block, et al.",
-        "published": "2014-04-07T00:00:00.000Z",
-        "publisher": "O'Reilly Media",
-        "pages": 538,
-        "description": "Design and build Web APIs for a broad range of clients—including browsers and mobile devices—that can adapt to change over time. This practical, hands-on guide takes you through the theory and tools you need to build evolvable HTTP services with Microsoft’s ASP.NET Web API framework. In the process, you’ll learn how design and implement a real-world Web API.",
-        "website": "http://chimera.labs.oreilly.com/books/1234000001708/index.html",
-        "image": "https://images-na.ssl-images-amazon.com/images/I/51A8Bt7SUfL.jpg"
-      }
-    ],
-    "genres": 
-    [    
-      {
-        "id": "5b21ca3eeb7f6fbccd471814",
-        "name": "Fantastic"
-      },    
-      {
-        "id": "5b21ca3eeb7f6fbccd471818",
-        "name": "Finance"
-      },    
-      {
-        "id": "5b21ca3eeb7f6fbccd471820",
-        "name": "Programming"
-      },    
-      {
+  "books": [
+    {
+      "id": "5b21ca3eeb7f6fbccd471815",
+      "isbn": "9781593275846",
+      "title": "Eloquent JavaScript, Second Edition",
+      "subtitle": "A Modern Introduction to Programming",
+      "genre": {
         "id": "5b21ca3eeb7f6fbccd471821",
         "name": "Management"
-      }
-    ],
-    "authors": 
-    [    
-      {
-        "name": "O'Reilly Media",
-        "id": "5b21ca3eeb7f6fbccd471222",
-        "biography": "Nicholas Charles Sparks was born in Omaha, Nebraska, on December 31, 1965, the second son of Patrick Michael and Jill Emma Marie Sparks. His siblings are Michael Earl Sparks and Danielle Sparks. As a child, he lived in Minnesota, Los Angeles, and Grand Island, Nebraska, finally settling in Fair Oaks, California, at the age of eight. His father was a professor, his mother a homemaker, then an optometrist's assistant. He lived in Fair Oaks through high school, graduated valedictorian in 1984, and received a full track scholarship to the University of Notre Dame. After breaking the Notre Dame school record as part of a relay team in 1985 as a freshman, he was injured and spent the summer recovering. During that summer, he wrote his first novel, though it was never published. He majored in Business Finance and graduated with high honors in 1988. He and his wife Catherine, who met on spring break in 1988, were married in July 1989. While living in Sacramento, he wrote a second novel that same year, though that novel wasn't published, either. He worked a variety of jobs over the next three years, including real estate appraisal, waiting tables, selling dental products by phone, and starting his own small manufacturing business which struggled from the beginning. In 1990, he collaborated on a book with Billy Mills, the Olympic Gold Medalist. Though it received scant publicity, sales topped 50,000 copies in the first year of release. Nicholas attends church regularly and reads approximately 125 books a year. He contributes to a variety of local and national charities, and is a major contributor to the Creative Writing Program (MFA) at the University of Notre Dame, where he provides scholarships, internships, and a fellowship annually. Along with his wife, he founded The Epiphany School in New Bern, North Carolina, and he spent five years coaching track and field athletes at the local public high school.",
-        "image": "http://s.s-bol.com/imgbase0//imagebase/regular/FC/2/7/6/9/839672.jpg"
-      },    
-      {
-        "name": "Nicholas C. Zakas",
-        "id": "5b21ca3eeb7f6fbccd471111",
-        "biography": "Khaled Hosseini was born in Kabul, Afghanistan, in 1965. His father was a diplomat with the Afghan Foreign Ministry and his mother taught Farsi and History at a large high school in Kabul. In 1970, the Foreign Ministry sent his family to Tehran, where his father worked for the Afghan embassy. They lived in Tehran until 1973, at which point they returned to Kabul. In July of 1973, on the night Hosseini’s youngest brother was born, the Afghan king, Zahir Shah, was overthrown in a bloodless coup by the king’s cousin, Daoud Khan. At the time, Hosseini was in fourth grade and was already drawn to poetry and prose; he read a great deal of Persian poetry as well as Farsi translations of novels ranging from Alice in Wonderland to Mickey Spillane’s Mike Hammer series. In 1976, the Afghan Foreign Ministry once again relocated the Hosseini family, this time to Paris. They were ready to return to Kabul in 1980, but by then Afghanistan had already witnessed a bloody communist coup and the invasion of the Soviet army. The Hosseinis sought and were granted political asylum in the United States. In September of 1980, Hosseini’s family moved to San Jose, California. They lived on welfare and food stamps for a short while, as they had lost all of their property in Afghanistan. His father took multiple jobs and managed to get his family off welfare. Hosseini graduated from high school in 1984 and enrolled at Santa Clara University where he earned a bachelor’s degree in Biology in 1988. The following year, he entered the University of California-San Diego’s School of Medicine, where he earned a Medical Degree in 1993. He completed his residency at Cedars-Sinai Hospital in Los Angeles and began practicing Internal Medicine in 1996. His first love, however, has always been writing. Hosseini has vivid, and fond, memories of peaceful pre-Soviet era Afghanistan, as well as of his personal experiences with Afghan Hazaras. One Hazara in particular was a thirty-year-old man named Hossein Khan, who worked for the Hosseinis when they were living in Iran. When Hosseini was in the third grade, he taught Khan to read and write. Though his relationship with Hossein Khan was brief and rather formal, Hosseini always remembered the fondness that developed between them. In 2006, Hosseini was named a goodwill envoy to the UNHCR, The United Nations Refugee Agency.",
-        "image": "http://s.s-bol.com/imgbase0//imagebase/regular/FC/6/0/0/4/1504006.jpg"
-
-      },    
-      {
-        "name": "Richard E. Silverman",
-        "id": "5b21ca3eeb7f6fbccd471333",
-        "biography": "Linda van Rijn (1974, Harmelen) is na haar studie Literatuurwetenschappen in de reisbranche gaan werken. Eerst in het buitenland als reisleidster op diverse toeristische locaties en tegenwoordig als interimmanager voor een grote toeristische organisatie. Al die jaren bleef ze geïnteresseerd in literatuur en ze schreef verhalen, maar nooit met het doel om echt auteur te worden. Dat veranderde na het lezen van Cruise van Suzanne Vermeer. En nu is daar haar eerste literaire thriller Last Minute, een literaire thriller waarmee ze niet alleen Suzanne Vermeer, maar ook andere grote namen als Saskia Noort en Esther Verhoef naar de kroon steekt. In november 2011 zal haar tweede thriller verschijnen bij Uitgeverij Marmer, getiteld Piste Gespertt.",
-        "image": "http://s.s-bol.com/imgbase0//imagebase/regular/FC/3/9/5/3/4193593.jpg"
-
-      },    
-      {
-        "name": "Marijn Haverbeke",
-        "id": "5b21ca3eeb7f6fbccd471444",
-        "biography": "Terry Brooks (8 januari 1944, Sterling (Illinois)) is een Amerikaans schrijver van epische fantasy. Hij is vooral bekend geworden door zijn serie Shannara, waarvan het eerste deel, Het Zwaard van Shannara, in 1977 verscheen. Brooks werd geboren in Sterling, Illinois en studeerde Engelse literatuur aan het Hamilton College in New York. Aan de Washington & Lee University studeerde hij rechten. Aanvankelijk werkte hij als advocaat, maar na de publicatie van zijn eerste boek besloot hij in 1986 om fulltime te gaan schrijven. Brooks schreef ook het boek Star Wars Episode I: A Phantom Menace (1999) van de gelijknamige film.",
-        "image": "http://2.bp.blogspot.com/-Sd0btC31U58/T0uFQR-ajcI/AAAAAAAAACg/YBEFGGQO9uA/s200/TerryBrooks_A_plus.jpg"
       },
-      {
-        "name": "Addy Osmani",
-        "id": "5b21ca3eeb7f6fbccd471555",
-        "biography": "David Baldacci (1960) werd geboren in Virginia in de Verenigde Staten. Na zijn studies politieke wetenschappen en rechten werkte hij negen jaar lang als advocaat in Washington D.C. In 1982 studeerde hij cum laude af, en begon hij aan een studie rechten. Tijdens deze studie zette hij zijn eerste schreden op het schrijverspad. Ook toen hij na zijn afstuderen in 1986 aan het werk ging als advocaat en bedrijfsjurist, bleef hij schrijven. In 1996 verscheen zijn sensationele debuut Het recht van de macht (Absolute power) die later verfilmd werd door Clint Eastwood, waarmee hij in een klap doorbrak. Zijn werk is in 35 talen vertaald en wereldwijd zijn er 40 miljoen van zijn boeken verkocht.",
-        "image": "http://s.s-bol.com/imgbase0//imagebase/regular/FC/4/1/8/6/6814.jpg"
+      "author": "Marijn Haverbeke",
+      "published": "2014-12-14T00:00:00.000Z",
+      "publisher": "No Starch Press",
+      "pages": 472,
+      "description": "JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.",
+      "website": "http://eloquentjavascript.net/",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51IKycqTPUL._SX376_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": "5b21ca3eeb7f6fbccd471816",
+      "isbn": "9781449331818",
+      "title": "Learning JavaScript Design Patterns",
+      "subtitle": "A JavaScript and jQuery Developer's Guide",
+      "genre": {
+        "id": "5b21ca3eeb7f6fbccd471820",
+        "name": "Programming"
       },
-      {
-        "name": "Axel Rauschmayer",
-        "id": "5b21ca3eeb7f6fbccd471666",
-        "biography": "Dan Brown is een Amerikaanse schrijver van thrillers. Tot Brown besloot zich volledig op het schrijven te storten, doceerde hij Engels aan de Philips Exeter Academy. Zijn interesse in het breken van geheimzinnige codes en fascinatie voor de werkwijze van inlichtingendiensten leidde tot het schrijven van zijn eerste twee boeken: Het Juvenalis Dilemma en De Delta Deceptie. Samen met zijn vrouw Blythe, die kunsthistorica en schilderes is, gaat hij regelmatig op reis om research voor zijn boeken te doen, zo ook naar Parijs. Daar waren ze veel in het Louvre te vinden. De bestseller De Da Vinci Code was het resultaat. In 2009 publiceerde Dan Brown zijn vijfde boek Het verloren symbool.",
-        "image": "http://s.s-bol.com/imgbase0/PARTYIMAGE/FC/1/5/6/6/0/1566097.gif"
+      "author": "Addy Osmani",
+      "published": "2012-07-01T00:00:00.000Z",
+      "publisher": "O'Reilly Media",
+      "pages": 254,
+      "description": "With Learning JavaScript Design Patterns, you'll learn how to write beautiful, structured, and maintainable JavaScript by applying classical and modern design patterns to the language. If you want to keep your code efficient, more manageable, and up-to-date with the latest best practices, this book is for you.",
+      "website": "http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/",
+      "image": "https://cdn.waterstones.com/bookjackets/large/9781/1185/9781118531648.jpg"
+    },
+    {
+      "id": "5b21ca3eeb7f6fbccd471817",
+      "isbn": "9781449365035",
+      "title": "Speaking JavaScript",
+      "subtitle": "An In-Depth Guide for Programmers",
+      "genre": {
+        "id": "5b21ca3eeb7f6fbccd471820",
+        "name": "Programming"
       },
-      {
-        "name": "Eric Elliott",
-        "id": "5b21ca3eeb7f6fbccd471777",
-        "biography": "Maeve Binchy was born on 28 May 1940 in Dublin and raised in Dalkey. The eldest child of a lawyer and a nurse, Maeve received her education at the Holy Child Convent in nearby Killiney. From there she went on to earn herself a BA (Bachelor of Arts Degree) in History from University College Dublin. In the years after she graduated she taught in several schools for girls and wrote stories during her summer holidays. In 1969 one of her stories earned her a job writing a column in The Irish Times and her career as a writer officially began. Maeve Binchy's books have put her name on the top 10 of Britain's most popular writers, not to mention the New York Times' Bestseller List. Considered a true Irish storyteller, Binchy's novels touch on issues such as parent-child relationships and the illusion of love.",
-        "image": "http://s.s-bol.com/imgbase0//imagebase/regular/FC/5/3/4/5/305435.jpg"
+      "author": "Axel Rauschmayer",
+      "published": "2014-02-01T00:00:00.000Z",
+      "publisher": "O'Reilly Media",
+      "pages": 460,
+      "description": "Like it or not, JavaScript is everywhere these days-from browser to server to mobile-and now you, too, need to learn the language or dive deeper than you have. This concise book guides you into and through JavaScript, written by a veteran programmer who once found himself in the same position.",
+      "website": "http://speakingjs.com/",
+      "image": "https://rotn1.files.wordpress.com/2017/12/gmlindepthguide.png?w=640"
+    },
+    {
+      "id": "5b21ca3eeb7f6fbccd471818",
+      "isbn": "9781491950296",
+      "title": "Programming JavaScript Applications",
+      "subtitle": "Robust Web Architecture with Node, HTML5, and Modern JS Libraries",
+      "genre": {
+        "id": "5b21ca3eeb7f6fbccd471820",
+        "name": "Programming"
       },
-      {
-        "name": "Kyle Simpson",
-        "id": "5b21ca3eeb7f6fbccd471888",
-        "biography": "Sophie Kinsella ex-financieel journaliste en schrijfster van de Shopaholic-reeks. Sophie Kinsella woont in Surrey, Engeland samen met haar man en vier zoons. Ze heeft twee zussen en vindt het (meestal) heerlijk om met hen te gaan winkelen. Met haar bestsellers Hou je mond!, Shopaholic!, Shopaholic! in alle staten en Shopaholic! zegt ja, veroverde zij de harten van miljoenen lezers over de hele wereld. Ook de romans onder haar eigen naam Madeleine Wickham, Zoete tranen, Slapeloze nachten, Dubbel feest en De cocktailclub, zijn inmiddels razend beroemd.",
-        "image": "http://s.s-bol.com/imgbase0/PARTYIMAGE/FC/6/6/9/1/1/66911.gif"
-      }
-    ]
-  }
-  
+      "author": "Eric Elliott",
+      "published": "2014-07-01T00:00:00.000Z",
+      "publisher": "O'Reilly Media",
+      "pages": 254,
+      "description": "Take advantage of JavaScript's power to build robust web-scale or enterprise applications that are easy to extend and maintain. By applying the design patterns outlined in this practical book, experienced JavaScript developers will learn how to write flexible and resilient code that's easier-yes, easier-to work with as your code base grows.",
+      "website": "http://chimera.labs.oreilly.com/books/1234000000262/index.html",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/512Hli3f6FL.jpg"
+    },
+    {
+      "id": "5b21ca3eeb7f6fbccd471819",
+      "isbn": "9781593277574",
+      "title": "Understanding ECMAScript 6",
+      "subtitle": "The Definitive Guide for JavaScript Developers",
+      "genre": {
+        "id": "5b21ca3eeb7f6fbccd471814",
+        "name": "Fantastic"
+      },
+      "author": "Nicholas C. Zakas",
+      "published": "2016-09-03T00:00:00.000Z",
+      "publisher": "No Starch Press",
+      "pages": 352,
+      "description": "ECMAScript 6 represents the biggest update to the core of JavaScript in the history of the language. In Understanding ECMAScript 6, expert developer Nicholas C. Zakas provides a complete guide to the object types, syntax, and other exciting changes that ECMAScript 6 brings to JavaScript.",
+      "website": "https://leanpub.com/understandinges6/read",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/91hUer84PpL.jpg"
+    },
+    {
+      "id": "5b21ca3eeb7f6fbccd471820",
+      "isbn": "9781491904244",
+      "title": "You Don't Know JS",
+      "subtitle": "ES6 & Beyond",
+      "genre": {
+        "id": "5b21ca3eeb7f6fbccd471814",
+        "name": "Fantastic"
+      },
+      "author": "Kyle Simpson",
+      "published": "2015-12-27T00:00:00.000Z",
+      "publisher": "O'Reilly Media",
+      "pages": 278,
+      "description": "No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. As part of the \"You Don’t Know JS\" series, this compact guide focuses on new features available in ECMAScript 6 (ES6), the latest version of the standard upon which JavaScript is built.",
+      "website": "https://github.com/getify/You-Dont-Know-JS/tree/master/es6%20&%20beyond",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/91-PASfiUVL.jpg"
+    },
+    {
+      "id": "5b21ca3eeb7f6fbccd471821",
+      "isbn": "9781449325862",
+      "title": "Git Pocket Guide",
+      "subtitle": "A Working Introduction",
+      "genre": {
+        "id": "5b21ca3eeb7f6fbccd471821",
+        "name": "Management"
+      },
+      "author": "Richard E. Silverman",
+      "published": "2013-08-02T00:00:00.000Z",
+      "publisher": "O'Reilly Media",
+      "pages": 234,
+      "description": "This pocket guide is the perfect on-the-job companion to Git, the distributed version control system. It provides a compact, readable introduction to Git for new users, as well as a reference to common commands and procedures for those of you with Git experience.",
+      "website": "http://chimera.labs.oreilly.com/books/1230000000561/index.html",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71f5JPIzrbL.jpg"
+    },
+    {
+      "id": "5b21ca3eeb7f6fbccd471822",
+      "isbn": "9781449337711",
+      "title": "Designing Evolvable Web APIs with ASP.NET",
+      "subtitle": "Harnessing the Power of the Web",
+      "genre": {
+        "id": "5b21ca3eeb7f6fbccd471818",
+        "name": "Finance"
+      },
+      "author": "Glenn Block, et al.",
+      "published": "2014-04-07T00:00:00.000Z",
+      "publisher": "O'Reilly Media",
+      "pages": 538,
+      "description": "Design and build Web APIs for a broad range of clients—including browsers and mobile devices—that can adapt to change over time. This practical, hands-on guide takes you through the theory and tools you need to build evolvable HTTP services with Microsoft’s ASP.NET Web API framework. In the process, you’ll learn how design and implement a real-world Web API.",
+      "website": "http://chimera.labs.oreilly.com/books/1234000001708/index.html",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51A8Bt7SUfL.jpg"
+    }
+  ],
+  "genres": [
+    {
+      "id": "5b21ca3eeb7f6fbccd471814",
+      "name": "Fantastic"
+    },
+    {
+      "id": "5b21ca3eeb7f6fbccd471818",
+      "name": "Finance"
+    },
+    {
+      "id": "5b21ca3eeb7f6fbccd471820",
+      "name": "Programming"
+    },
+    {
+      "id": "5b21ca3eeb7f6fbccd471821",
+      "name": "Management"
+    }
+  ],
+  "authors": [
+    {
+      "name": "O'Reilly Media",
+      "id": "5b21ca3eeb7f6fbccd471222",
+      "biography": "Nicholas Charles Sparks was born in Omaha, Nebraska, on December 31, 1965, the second son of Patrick Michael and Jill Emma Marie Sparks. His siblings are Michael Earl Sparks and Danielle Sparks. As a child, he lived in Minnesota, Los Angeles, and Grand Island, Nebraska, finally settling in Fair Oaks, California, at the age of eight. His father was a professor, his mother a homemaker, then an optometrist's assistant. He lived in Fair Oaks through high school, graduated valedictorian in 1984, and received a full track scholarship to the University of Notre Dame. After breaking the Notre Dame school record as part of a relay team in 1985 as a freshman, he was injured and spent the summer recovering. During that summer, he wrote his first novel, though it was never published. He majored in Business Finance and graduated with high honors in 1988. He and his wife Catherine, who met on spring break in 1988, were married in July 1989. While living in Sacramento, he wrote a second novel that same year, though that novel wasn't published, either. He worked a variety of jobs over the next three years, including real estate appraisal, waiting tables, selling dental products by phone, and starting his own small manufacturing business which struggled from the beginning. In 1990, he collaborated on a book with Billy Mills, the Olympic Gold Medalist. Though it received scant publicity, sales topped 50,000 copies in the first year of release. Nicholas attends church regularly and reads approximately 125 books a year. He contributes to a variety of local and national charities, and is a major contributor to the Creative Writing Program (MFA) at the University of Notre Dame, where he provides scholarships, internships, and a fellowship annually. Along with his wife, he founded The Epiphany School in New Bern, North Carolina, and he spent five years coaching track and field athletes at the local public high school.",
+      "image": "http://s.s-bol.com/imgbase0//imagebase/regular/FC/2/7/6/9/839672.jpg"
+    },
+    {
+      "name": "Nicholas C. Zakas",
+      "id": "5b21ca3eeb7f6fbccd471111",
+      "biography": "Khaled Hosseini was born in Kabul, Afghanistan, in 1965. His father was a diplomat with the Afghan Foreign Ministry and his mother taught Farsi and History at a large high school in Kabul. In 1970, the Foreign Ministry sent his family to Tehran, where his father worked for the Afghan embassy. They lived in Tehran until 1973, at which point they returned to Kabul. In July of 1973, on the night Hosseini’s youngest brother was born, the Afghan king, Zahir Shah, was overthrown in a bloodless coup by the king’s cousin, Daoud Khan. At the time, Hosseini was in fourth grade and was already drawn to poetry and prose; he read a great deal of Persian poetry as well as Farsi translations of novels ranging from Alice in Wonderland to Mickey Spillane’s Mike Hammer series. In 1976, the Afghan Foreign Ministry once again relocated the Hosseini family, this time to Paris. They were ready to return to Kabul in 1980, but by then Afghanistan had already witnessed a bloody communist coup and the invasion of the Soviet army. The Hosseinis sought and were granted political asylum in the United States. In September of 1980, Hosseini’s family moved to San Jose, California. They lived on welfare and food stamps for a short while, as they had lost all of their property in Afghanistan. His father took multiple jobs and managed to get his family off welfare. Hosseini graduated from high school in 1984 and enrolled at Santa Clara University where he earned a bachelor’s degree in Biology in 1988. The following year, he entered the University of California-San Diego’s School of Medicine, where he earned a Medical Degree in 1993. He completed his residency at Cedars-Sinai Hospital in Los Angeles and began practicing Internal Medicine in 1996. His first love, however, has always been writing. Hosseini has vivid, and fond, memories of peaceful pre-Soviet era Afghanistan, as well as of his personal experiences with Afghan Hazaras. One Hazara in particular was a thirty-year-old man named Hossein Khan, who worked for the Hosseinis when they were living in Iran. When Hosseini was in the third grade, he taught Khan to read and write. Though his relationship with Hossein Khan was brief and rather formal, Hosseini always remembered the fondness that developed between them. In 2006, Hosseini was named a goodwill envoy to the UNHCR, The United Nations Refugee Agency.",
+      "image": "http://s.s-bol.com/imgbase0//imagebase/regular/FC/6/0/0/4/1504006.jpg"
+    },
+    {
+      "name": "Richard E. Silverman",
+      "id": "5b21ca3eeb7f6fbccd471333",
+      "biography": "Linda van Rijn (1974, Harmelen) is na haar studie Literatuurwetenschappen in de reisbranche gaan werken. Eerst in het buitenland als reisleidster op diverse toeristische locaties en tegenwoordig als interimmanager voor een grote toeristische organisatie. Al die jaren bleef ze geïnteresseerd in literatuur en ze schreef verhalen, maar nooit met het doel om echt auteur te worden. Dat veranderde na het lezen van Cruise van Suzanne Vermeer. En nu is daar haar eerste literaire thriller Last Minute, een literaire thriller waarmee ze niet alleen Suzanne Vermeer, maar ook andere grote namen als Saskia Noort en Esther Verhoef naar de kroon steekt. In november 2011 zal haar tweede thriller verschijnen bij Uitgeverij Marmer, getiteld Piste Gespertt.",
+      "image": "http://s.s-bol.com/imgbase0//imagebase/regular/FC/3/9/5/3/4193593.jpg"
+    },
+    {
+      "name": "Marijn Haverbeke",
+      "id": "5b21ca3eeb7f6fbccd471444",
+      "biography": "Terry Brooks (8 januari 1944, Sterling (Illinois)) is een Amerikaans schrijver van epische fantasy. Hij is vooral bekend geworden door zijn serie Shannara, waarvan het eerste deel, Het Zwaard van Shannara, in 1977 verscheen. Brooks werd geboren in Sterling, Illinois en studeerde Engelse literatuur aan het Hamilton College in New York. Aan de Washington & Lee University studeerde hij rechten. Aanvankelijk werkte hij als advocaat, maar na de publicatie van zijn eerste boek besloot hij in 1986 om fulltime te gaan schrijven. Brooks schreef ook het boek Star Wars Episode I: A Phantom Menace (1999) van de gelijknamige film.",
+      "image": "http://2.bp.blogspot.com/-Sd0btC31U58/T0uFQR-ajcI/AAAAAAAAACg/YBEFGGQO9uA/s200/TerryBrooks_A_plus.jpg"
+    },
+    {
+      "name": "Addy Osmani",
+      "id": "5b21ca3eeb7f6fbccd471555",
+      "biography": "David Baldacci (1960) werd geboren in Virginia in de Verenigde Staten. Na zijn studies politieke wetenschappen en rechten werkte hij negen jaar lang als advocaat in Washington D.C. In 1982 studeerde hij cum laude af, en begon hij aan een studie rechten. Tijdens deze studie zette hij zijn eerste schreden op het schrijverspad. Ook toen hij na zijn afstuderen in 1986 aan het werk ging als advocaat en bedrijfsjurist, bleef hij schrijven. In 1996 verscheen zijn sensationele debuut Het recht van de macht (Absolute power) die later verfilmd werd door Clint Eastwood, waarmee hij in een klap doorbrak. Zijn werk is in 35 talen vertaald en wereldwijd zijn er 40 miljoen van zijn boeken verkocht.",
+      "image": "http://s.s-bol.com/imgbase0//imagebase/regular/FC/4/1/8/6/6814.jpg"
+    },
+    {
+      "name": "Axel Rauschmayer",
+      "id": "5b21ca3eeb7f6fbccd471666",
+      "biography": "Dan Brown is een Amerikaanse schrijver van thrillers. Tot Brown besloot zich volledig op het schrijven te storten, doceerde hij Engels aan de Philips Exeter Academy. Zijn interesse in het breken van geheimzinnige codes en fascinatie voor de werkwijze van inlichtingendiensten leidde tot het schrijven van zijn eerste twee boeken: Het Juvenalis Dilemma en De Delta Deceptie. Samen met zijn vrouw Blythe, die kunsthistorica en schilderes is, gaat hij regelmatig op reis om research voor zijn boeken te doen, zo ook naar Parijs. Daar waren ze veel in het Louvre te vinden. De bestseller De Da Vinci Code was het resultaat. In 2009 publiceerde Dan Brown zijn vijfde boek Het verloren symbool.",
+      "image": "http://s.s-bol.com/imgbase0/PARTYIMAGE/FC/1/5/6/6/0/1566097.gif"
+    },
+    {
+      "name": "Eric Elliott",
+      "id": "5b21ca3eeb7f6fbccd471777",
+      "biography": "Maeve Binchy was born on 28 May 1940 in Dublin and raised in Dalkey. The eldest child of a lawyer and a nurse, Maeve received her education at the Holy Child Convent in nearby Killiney. From there she went on to earn herself a BA (Bachelor of Arts Degree) in History from University College Dublin. In the years after she graduated she taught in several schools for girls and wrote stories during her summer holidays. In 1969 one of her stories earned her a job writing a column in The Irish Times and her career as a writer officially began. Maeve Binchy's books have put her name on the top 10 of Britain's most popular writers, not to mention the New York Times' Bestseller List. Considered a true Irish storyteller, Binchy's novels touch on issues such as parent-child relationships and the illusion of love.",
+      "image": "http://s.s-bol.com/imgbase0//imagebase/regular/FC/5/3/4/5/305435.jpg"
+    },
+    {
+      "name": "Kyle Simpson",
+      "id": "5b21ca3eeb7f6fbccd471888",
+      "biography": "Sophie Kinsella ex-financieel journaliste en schrijfster van de Shopaholic-reeks. Sophie Kinsella woont in Surrey, Engeland samen met haar man en vier zoons. Ze heeft twee zussen en vindt het (meestal) heerlijk om met hen te gaan winkelen. Met haar bestsellers Hou je mond!, Shopaholic!, Shopaholic! in alle staten en Shopaholic! zegt ja, veroverde zij de harten van miljoenen lezers over de hele wereld. Ook de romans onder haar eigen naam Madeleine Wickham, Zoete tranen, Slapeloze nachten, Dubbel feest en De cocktailclub, zijn inmiddels razend beroemd.",
+      "image": "http://s.s-bol.com/imgbase0/PARTYIMAGE/FC/6/6/9/1/1/66911.gif"
+    }
+  ]
+}

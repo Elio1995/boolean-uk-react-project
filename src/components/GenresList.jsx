@@ -33,7 +33,7 @@ function GenresList() {
             name="genre"
             type="radio"
           ></input>
-          {genre.name}
+          {genre.name}{" "}
         </li>
       ))}
     </form>

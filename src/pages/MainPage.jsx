@@ -4,12 +4,15 @@ import LeftMenu from "../components/LeftMenu";
 import MainMenu from "../components/MainMenu";
 import RightMenu from "../components/RightMenu";
 
-function MainPage() {
+function MainPage({ addBookstoFavourites, addBookstoRead }) {
   return (
     <>
       <Header />
       <LeftMenu />
-      <MainMenu />
+      <MainMenu
+        addBookstoFavourites={addBookstoFavourites}
+        addBookstoRead={addBookstoRead}
+      />
       <RightMenu />
     </>
   );

@@ -4,6 +4,9 @@ const useStore = create((set, get) => ({
   genres: [],
   authors: [],
   books: [],
+  setBooks(book) {
+    set({ books: book });
+  },
   selectedAuthor: null,
   selectedBook: null,
   fetchGenres() {
@@ -43,6 +46,11 @@ const useStore = create((set, get) => ({
       );
       set({ filterBooks: filterBooksArray });
     }
+  },
+  findBookById: (bookId) => {
+    return get().books.find((book) => {
+      return book.id === bookId;
+    });
   },
 }));
 
