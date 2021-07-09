@@ -1,5 +1,4 @@
 import React from "react";
-import useStore from "../store";
 import Form from "./Form";
 import GenresList from "./GenresList";
 
@@ -8,7 +7,9 @@ function LeftMenu() {
     <section className="left-menu">
       <div>
         <ul className="genres-filter-list">
-          <label htmlFor="author">Filter by Genres</label>
+          <label htmlFor="author">
+            <h2>Filter by Genres</h2>
+          </label>
           <GenresList />
         </ul>
       </div>
