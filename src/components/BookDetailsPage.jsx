@@ -14,17 +14,30 @@ function BookDetailsPage() {
         className="selected-card-image"
         alt=""
       ></img>
-      <h3>Published: {selectedBook.published}</h3>
+      <h3>Author: {selectedBook.author}</h3>
       <h3>Pages: {selectedBook.pages}</h3>
       <p>{selectedBook.description}</p>
-      <button>Buy it now!</button>
-      <img
+      <button>
+        {" "}
+        <a
+          href={`https://www.google.com/search?q=${
+            "buy" + selectedBook.title.split(" ").join("+")
+          }`}
+        >
+          Buy it now!
+        </a>
+      </button>
+      {/* <img
         src="https://image.flaticon.com/icons/png/512/1077/1077035.png"
+        target="_blank"
         className="favourite"
         alt="heart"
-      ></img>
+      ></img> */}
     </div>
   );
 }
+
+// href={`https://www.google.com/search?q=${el
+//                 .join("+")}`}
 
 export default BookDetailsPage;

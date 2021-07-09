@@ -1,8 +1,15 @@
 import { Link } from "react-router-dom";
+import useStore from "../store";
 
 import React from "react";
 
 function Header() {
+  const updateSearchBooks = useStore((store) => store.updateSearchBooks);
+  const currentUser = useStore((store) => store.currentUser);
+  const logout = useStore((store) => store.logout);
+
+  if (!currentUser) return null;
+
   return (
     <header className="header-top">
       <img
@@ -13,12 +20,30 @@ function Header() {
       <h2>BOOK CABIN</h2>
       <Link to="/favouritesRead-page">
         {" "}
-        <button>Favourite and Read</button>
+        <button className="favourite-readButton">Favourite and Read</button>
       </Link>
+      <div className="header-profile">
+        <img
+          className="avatar"
+          width="40"
+          height="40"
+          src={currentUser.avatar}
+          alt=""
+        />
+        <h3>
+          {currentUser.firstName} {currentUser.lastName}
+        </h3>
+        <button className="logout-button" onClick={logout}>
+          Log Out
+        </button>
+      </div>
       <input
         type="search"
         className="search-header"
         placeholder="Search"
+        onChange={(e) => {
+          updateSearchBooks(e.target.value);
+        }}
       ></input>
     </header>
   );

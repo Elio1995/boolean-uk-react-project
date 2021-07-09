@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import useStore from "../store";
-import GenresList from "./GenresList";
 
 function Form() {
   const setBooks = useStore((store) => store.setBooks);
@@ -38,6 +37,7 @@ function Form() {
     })
       .then((resp) => resp.json())
       .then((data) => {
+        console.log(data);
         addBooks(data);
       });
 

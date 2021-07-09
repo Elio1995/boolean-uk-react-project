@@ -12,7 +12,6 @@ html {
   --pink: #c51f5d;
   --dark-pink: #8d1642;
   --white: white;
-  /* var(--black, value) */
 }
 
 h3 {
@@ -26,9 +25,73 @@ li {
 .all-file {
   display: grid;
   grid-template:
-    "header header header" 60px
+    "header header header" 70px
     "left main right" 1fr /
     200px 1fr 230px;
+}
+
+/* LOGIN */
+.main-wrapper {
+  display: grid;
+  position: relative;
+  grid-template-columns: 250px 2fr;
+  max-width: 1440px;
+  margin: 12rem 35rem;
+  z-index: 10;
+  box-shadow: var(--main-shadow);
+}
+
+.main-wrapper .login {
+  grid-template-columns: minmax(300px, 600px);
+  place-content: center;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.login-section {
+  background-color: white;
+  padding: 1rem;
+  box-shadow: var(--main-shadow);
+  place-items: center;
+  background-color: rgb(233, 205, 181);
+}
+
+.login-section h1 {
+  display: grid;
+  place-items: center;
+  color: white;
+}
+
+.login-section h2 {
+  margin: 1rem 0 1.5rem;
+  display: grid;
+  place-items: center;
+  color: white;
+}
+
+.login-section li {
+  border-top: 1px solid var(--borders);
+  padding: 0.5rem 0;
+}
+
+.login-section li button {
+  background-color: #965314;
+  border: none;
+  color: white;
+}
+
+.login-section li button:hover {
+  background-color: rgb(233, 205, 181);
+  color: #965314;
+}
+
+.user-selection {
+  width: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: left;
+  gap: 2rem;
 }
 
 /* HEADER */
@@ -36,11 +99,15 @@ li {
   grid-area: header;
   display: grid;
   gap: 10px;
-  grid-template-columns: 30px 1fr 200px 200px;
-
+  grid-template-columns: 30px 1fr 150px 200px 200px;
   background-color: var(--blackest);
-  padding: 20px;
+  padding: 15px;
   color: white;
+}
+
+.header-profile {
+  display: grid;
+  grid-template-columns: 50px 50px 100px;
 }
 
 .logo {
@@ -51,6 +118,7 @@ li {
 .search-header {
   border-radius: 15px;
   border-color: white;
+  background-color: rgb(233, 205, 181);
 }
 
 /* LEFT MENU */
@@ -61,6 +129,8 @@ li {
   grid-template-rows: auto 1fr;
   padding: 15px;
   gap: 25px;
+  color: #965314;
+  background-color: rgb(233, 205, 181);
 }
 
 .genres-filter-list {
@@ -75,6 +145,17 @@ li {
   margin-left: 10px;
 }
 
+.left-menu button {
+  color: #965314;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.left-menu h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
 /* MAIN-MENU  */
 
 .main-section {
@@ -84,11 +165,17 @@ li {
   padding: 20px;
 }
 
+.top-section {
+  height: 100vh;
+  overflow: scroll;
+}
+
 .main-section .list-cards {
   display: grid;
   grid-template-columns: repeat(3, minmax(200px, auto));
   list-style: none;
-  gap: 10px;
+  gap: 30px;
+  overflow: scroll;
 }
 
 .card-image {
@@ -104,12 +191,14 @@ li {
 .card {
   padding: 8px;
   border-radius: 8px;
+  border-color: #965314;
   text-align: center;
   background-color: white;
+  height: 100%;
 }
 
 .card li:hover {
-  border-color: var(--pink);
+  border-color: #965314;
 }
 
 /* .card button {
@@ -123,11 +212,13 @@ li {
 } */
 
 .card button:hover {
-  background-color: var(--pink);
+  background-color: #965314;
+  color: white;
 }
 
 .card button:active {
-  background-color: var(--dark-pink);
+  background-color: #965314;
+  color: white;
 }
 
 .favourite {
@@ -142,15 +233,31 @@ li {
   display: grid;
   grid-template-rows: auto 1fr;
   gap: 25px;
+  background-color: rgb(233, 205, 181);
   padding: 20px;
 }
 
-.biography-list {
-  margin-left: 10px;
+.right-menu h2 {
+  color: var(--blackest);
 }
 
 .biography-list li {
-  margin: 10px;
+  margin: 5px;
+}
+
+.biography-list li button {
+  background-color: rgb(233, 205, 181);
+  padding: 8px;
+  color: var(--blackest);
+  font-style: unset;
+  font-weight: bolder;
+  border: none;
+  font-size: 16px;
+}
+
+.biography-list li button:hover {
+  background-color: var(--blackest);
+  color: white;
 }
 
 /* AUTHORPAGE */
@@ -161,4 +268,108 @@ li {
 
 .author-biography {
   margin: 20px;
+}
+
+.add-button {
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 15px;
+  margin-right: 5px;
+  background-color: rgb(233, 205, 181);
+}
+
+.remove-button {
+  border-radius: 100%;
+  padding: 5px;
+  background-color: rgb(233, 205, 181);
+}
+
+.favourite-readButton {
+  padding: 10px;
+  background-color: rgb(233, 205, 181);
+  border: none;
+}
+
+.favourite-readButton:hover {
+  padding: 10px;
+  color: white;
+}
+
+.logout-button {
+  background-color: rgb(233, 205, 181);
+  border: none;
+}
+
+.logout-button:hover {
+  color: white;
+}
+
+/* FAVOURITE READ PAGE */
+
+.favourite-read {
+  display: grid;
+  grid-template:
+    "header header header" 70px
+    "left main right" 1fr /
+    100px 1fr 230px;
+}
+
+/* .favourite-header header {
+  grid-area: header;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 30px 1fr 150px 200px 200px;
+  background-color: var(--blackest);
+  padding: 15px;
+  color: white;
+} */
+
+.favourite-read .favourite-list {
+  display: main;
+}
+
+.favourite-read .read-list {
+  display: right;
+}
+
+.favourite-read h2 {
+  font-size: 15px;
+  margin: 2px;
+}
+
+.favourite-read li {
+  margin: 20px;
+  border: 1px solid var(--blackest);
+}
+
+.patoto {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.patoto h2 {
+  font-size: 18px;
+  margin: 5px;
+}
+
+.patoto .add-button {
+  margin: 15px;
+}
+
+.patoto .remove-button {
+  margin: 15px;
+}
+
+.detail-page-card {
+  margin: 10px 30px;
+}
+
+.detail-page-card button {
+  padding: 10px;
+  background-color: rgb(233, 205, 181);
+  border: none;
+}
+
+.detail-page-card button a {
+  color: black;
 }
